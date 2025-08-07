@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { ThemeProvider } from './contexts/ThemeContext';
 import Header from './components/Header';
@@ -18,8 +17,8 @@ function App() {
           <main>
             <Hero />
             <About />
-            <Skills />
             <Experience />
+            <Skills />
             <Contact />
           </main>
           <Footer />

@@ -124,7 +124,7 @@ const Footer: React.FC = () => {
             <div className="flex items-center space-x-2 text-purple-200 mb-4 md:mb-0">
               <span>© {currentYear} Vanessa Cuevas Arroyo. Made with</span>
               <Heart size={16} className="text-red-400 animate-pulse" />
-              <span>and lots of coffee</span>
+              <span>and lots of pre-workout</span>
             </div>
             
             <button

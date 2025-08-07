@@ -10,12 +10,33 @@ const Skills: React.FC = () => {
       title: "Frontend Development",
       color: "from-purple-600 to-violet-600",
       skills: [
-        { name: "React", level: "Expert", impact: "Built 10+ production apps with 99.9% uptime" },
-        { name: "Next.js", level: "Advanced", impact: "Improved SEO performance by 40%" },
-        { name: "TypeScript", level: "Expert", impact: "Reduced runtime errors by 60%" },
-        { name: "Tailwind CSS", level: "Advanced", impact: "Accelerated development by 50%" },
-        { name: "JavaScript", level: "Expert", impact: "5+ years of production experience" }
-      ]
+  {
+    name: "React",
+    level: "Expert",
+    impact: "Built resilient front-ends that deliver smooth user experiences"
+  },
+  {
+    name: "Next.js",
+    level: "Advanced",
+    impact: "Boosted SEO and refined content delivery"
+  },
+  {
+    name: "TypeScript",
+    level: "Expert",
+    impact: "Elevated code reliability with strict typing"
+  },
+  {
+    name: "Tailwind CSS",
+    level: "Advanced",
+    impact: "Accelerated UI development with utility-first styling"
+  },
+  {
+    name: "JavaScript",
+    level: "Expert",
+    impact: "Leveraged deep JS knowledge for performant apps"
+  }
+]
+
     },
     {
       icon: <Database className="w-6 h-6" />,
@@ -23,8 +44,8 @@ const Skills: React.FC = () => {
       color: "from-violet-600 to-purple-600",
       skills: [
         { name: "Node.js", level: "Advanced", impact: "Built scalable APIs serving 10k+ users" },
-        { name: "PostgreSQL", level: "Advanced", impact: "Optimized queries reducing load time by 70%" },
-        { name: "Python", level: "Intermediate", impact: "Automated data pipelines processing 1M+ records" },
+        { name: "PostgreSQL", level: "Advanced", impact: "Optimized queries reducing load time" },
+        { name: "Python", level: "Intermediate", impact: "Automated data pipelines processing" },
         { name: "SQL", level: "Advanced", impact: "Designed efficient database schemas" },
       ]
     },
@@ -33,9 +54,12 @@ const Skills: React.FC = () => {
       title: "DevOps & Testing",
       color: "from-indigo-600 to-purple-600",
       skills: [
-        { name: "GitHub Actions", level: "Advanced", impact: "Automated CI/CD reducing deployment time by 80%" },
-        { name: "Jest", level: "Advanced", impact: "Achieved 90%+ test coverage on critical features" },
-        { name: "Docker", level: "Intermediate", impact: "Containerized applications for consistent deployments" },
+        { name: "GitHub Actions", level: "Advanced", impact: "Automated CI/CD reducing deployment time" },
+        {
+    name: "Django",
+    level: "Intermediate",
+    impact: "Developed maintainable web apps with server-side logic"
+  },
         { name: "AWS", level: "Intermediate", impact: "Deployed scalable cloud infrastructure" },
         { name: "Git", level: "Expert", impact: "Managed complex branching strategies for large teams" }
       ]
@@ -120,23 +144,6 @@ const Skills: React.FC = () => {
                 </div>
               </div>
             ))}
-          </div>
-
-          {/* Skills Summary */}
-          <div className="mt-16 text-center">
-            <div className="bg-gradient-to-r from-purple-600 to-violet-600 text-white rounded-2xl p-8">
-              <h3 className="text-2xl font-bold mb-4">Ready to Build Something Amazing?</h3>
-              <p className="text-lg opacity-90 mb-6">
-                With expertise across the full stack and a passion for user-centered design, 
-                I'm equipped to tackle complex challenges and deliver exceptional results.
-              </p>
-              <div className="flex flex-wrap justify-center gap-4 text-sm">
-                <span className="bg-white/20 px-3 py-1 rounded-full">5+ Years Experience</span>
-                <span className="bg-white/20 px-3 py-1 rounded-full">20+ Technologies</span>
-                <span className="bg-white/20 px-3 py-1 rounded-full">10+ Projects Delivered</span>
-                <span className="bg-white/20 px-3 py-1 rounded-full">99.9% Uptime</span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
