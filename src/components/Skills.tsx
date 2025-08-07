@@ -26,7 +26,6 @@ const Skills: React.FC = () => {
         { name: "PostgreSQL", level: "Advanced", impact: "Optimized queries reducing load time by 70%" },
         { name: "Python", level: "Intermediate", impact: "Automated data pipelines processing 1M+ records" },
         { name: "SQL", level: "Advanced", impact: "Designed efficient database schemas" },
-        { name: "C3.ai Platform", level: "Advanced", impact: "Developed enterprise AI applications" }
       ]
     },
     {

@@ -74,7 +74,7 @@ const Hero: React.FC = () => {
               <Linkedin size={24} />
             </a>
             <a
-              href="https://github.com/vanecuevas"
+              href="https://github.com/vanecuevar98"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transform hover:scale-110 transition-all duration-200 text-purple-600 hover:text-purple-700"
@@ -82,7 +82,7 @@ const Hero: React.FC = () => {
               <Github size={24} />
             </a>
             <a
-              href="mailto:vanessa.cuevas@example.com"
+              href="mailto:vane.cuevar98@gmail.com"
               className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transform hover:scale-110 transition-all duration-200 text-purple-600 hover:text-purple-700"
             >
               <Mail size={24} />

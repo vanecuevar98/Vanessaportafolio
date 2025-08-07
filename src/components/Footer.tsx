@@ -20,12 +20,12 @@ const Footer: React.FC = () => {
     },
     {
       icon: <Github size={20} />,
-      href: 'https://github.com/vanecuevas',
+      href: 'https://github.com/vanecuevar98',
       label: 'GitHub'
     },
     {
       icon: <Mail size={20} />,
-      href: 'mailto:vanessa.cuevas@example.com',
+      href: 'mailto:vane.cuevar98@gmail.com',
       label: 'Email'
     }
   ];
