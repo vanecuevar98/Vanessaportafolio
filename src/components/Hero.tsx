@@ -42,6 +42,7 @@ const Hero: React.FC = () => {
           <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-3xl mx-auto leading-relaxed animate-fade-in-delay-2">
             I build scalable systems and interactive web apps powered by{' '}
             <span className="text-purple-600 font-semibold">React</span>,{' '}
+            <span className="text-purple-600 font-semibold">Vue</span>,{' '}
             <span className="text-purple-600 font-semibold">TypeScript</span> &{' '}
             <span className="text-purple-600 font-semibold">automated pipelines</span>
           </p>

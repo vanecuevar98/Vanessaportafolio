@@ -7,7 +7,7 @@ const Experience: React.FC = () => {
       company: "C3.ai",
       position: "Software Engineer, Apps",
       period: "Aug 2024 - Jun 2025",
-      location: "Remote",
+      location: "Guadalajara, Mexico",
       type: "Full-time",
       description: "Developing enterprise AI applications and improving data pipeline infrastructure for large-scale deployments.",
       achievements: [
